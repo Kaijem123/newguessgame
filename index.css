@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    height: 500px;
+    width: 400px;
+    border: 2px red solid;
+}
+
+#reload{
+    visibility: hidden;
+}
+
+#clue{
+    width: 50%;
+    height: 10%;
+    
+}
+
+#reload{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 4%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+#reload:hover{
+    background-color: rgb(5, 195, 5);
+}
+#reload:active{
+    background-color: brown;
+}
+
+#btn{
+    background-color: red;
+    color: greenyellow;
+    font-weight: bold;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(150, 8, 8);
+}
+#btn:active{
+    background-color: greenyellow;
+    color: rgb(150, 8, 8);
+}
+
+#input{
+    border: 2px solid rgb(4, 155, 4);
+    border-radius: 4px;
+}
+
+#title{
+    border: 2px solid rgb(2, 162, 2);
+    background-color: rgb(226, 223, 223);
+    font-weight: bold;
+}
+
+#guess{
+    color: blueviolet;
+    font-weight: bold;
+
+}
